@@ -1,0 +1,23 @@
+.nav {
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 101;
+  background-color: #fff;
+}
+
+.close-icon {
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.nav p {
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+}
